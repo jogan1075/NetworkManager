@@ -1,8 +1,8 @@
 
 
 import Foundation
-import Network
-import Logger
+import NetworkManager
+import LoggerManager
 
 public func createAPIClientServiceMock() -> IAPIClientService {
     return APIClientService(
